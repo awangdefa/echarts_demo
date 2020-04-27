@@ -8,32 +8,32 @@
             <el-menu background-color="#545c64" active-text-color="#fff" text-color="#ddd">
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/bar">柱状图</router-link>
+                  <router-link to="/echarts/bar">柱状图</router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/line">折线图</router-link>
+                  <router-link to="/echarts/line">折线图</router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/guage">仪表盘</router-link>
+                  <router-link to="/echarts/guage">仪表盘</router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/radar">雷达图</router-link>
+                  <router-link to="/echarts/radar">雷达图</router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/pie">饼图</router-link>
+                  <router-link to="/echarts/pie">饼图</router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/scatter">散点图</router-link>
+                  <router-link to="/echarts/scatter">散点图</router-link>
                 </span>
               </el-menu-item>
             </el-menu>

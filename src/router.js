@@ -17,12 +17,12 @@ export default new Router({
       path: '/echarts/',
       component: Frame,
       children: [
-        { path: '/bar', component: Bar },
-        { path: '/line', component: Line },
-        { path: '/guage', component: Guage },
-        { path: '/pie', component: Pie },
-        { path: '/scatter', component: Scatter },
-        { path: '/radar', component: Radar }
+        { path: 'bar', component: Bar },
+        { path: 'line', component: Line },
+        { path: 'guage', component: Guage },
+        { path: 'pie', component: Pie },
+        { path: 'scatter', component: Scatter },
+        { path: 'radar', component: Radar }
       ]
     }
 
