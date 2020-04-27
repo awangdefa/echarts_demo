@@ -14,7 +14,7 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: '/echarts',
+      path: '/echarts/',
       component: Frame,
       children: [
         { path: '/bar', component: Bar },

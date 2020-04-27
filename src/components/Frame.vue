@@ -8,7 +8,7 @@
             <el-menu background-color="#545c64" active-text-color="#fff" text-color="#ddd">
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="bar">柱状图</router-link>
+                  <router-link to="/bar">柱状图</router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
