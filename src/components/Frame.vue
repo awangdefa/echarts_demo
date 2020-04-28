@@ -5,35 +5,35 @@
       <el-aside width="200px">
         <el-row>
           <el-col :span="24">
-            <el-menu background-color="#545c64" active-text-color="#fff" text-color="#ddd">
+            <el-menu background-color="#293c55" active-text-color="#fff" text-color="#ddd">
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/bar">柱状图</router-link>
+                  <router-link to="/echarts/bar"><span class="font">柱状图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/line">折线图</router-link>
+                  <router-link to="/echarts/line"><span class="font">折线图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/guage">仪表盘</router-link>
+                  <router-link to="/echarts/guage"><span class="font">仪表盘</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/radar">雷达图</router-link>
+                  <router-link to="/echarts/radar"><span class="font">雷达图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/pie">饼图</router-link>
+                  <router-link to="/echarts/pie"><span class="font">饼图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/scatter">散点图</router-link>
+                  <router-link to="/echarts/scatter"><span class="font">散点图</span></router-link>
                 </span>
               </el-menu-item>
             </el-menu>
@@ -62,14 +62,14 @@ export default {};
   height: 100vh;
 }
 .el-header {
-  background-color: #b3c0d1;
-  color: #333;
+  background-color: #293c55;
+  color: white;
   text-align: center;
   line-height: 60px;
 }
 
 .el-aside {
-  background-color: #d3dce6;
+  background-color: #293c55;
   color: #333;
   text-align: center;
   line-height: 200px;
@@ -84,5 +84,8 @@ export default {};
   color: #333;
   text-align: center;
   line-height: 160px;
+}
+.font {
+  color: white;
 }
 </style>
