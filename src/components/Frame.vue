@@ -8,32 +8,32 @@
             <el-menu background-color="#293c55" active-text-color="#fff" text-color="#ddd">
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/bar"><span class="font">柱状图</span></router-link>
+                  <router-link to="/echarts/bar"><span class="asidefont">柱状图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/line"><span class="font">折线图</span></router-link>
+                  <router-link to="/echarts/line"><span class="asidefont">折线图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/guage"><span class="font">仪表盘</span></router-link>
+                  <router-link to="/echarts/guage"><span class="asidefont">仪表盘</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/radar"><span class="font">雷达图</span></router-link>
+                  <router-link to="/echarts/radar"><span class="asidefont">雷达图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/pie"><span class="font">饼图</span></router-link>
+                  <router-link to="/echarts/pie"><span class="asidefont">饼图</span></router-link>
                 </span>
               </el-menu-item>
               <el-menu-item>
                 <span slot="title">
-                  <router-link to="/echarts/scatter"><span class="font">散点图</span></router-link>
+                  <router-link to="/echarts/scatter"><span class="asidefont">散点图</span></router-link>
                 </span>
               </el-menu-item>
             </el-menu>
@@ -86,7 +86,7 @@ export default {};
   line-height: 160px;
 }
 
-.font {
+.asidefont {
   color: white;
 }
 </style>
