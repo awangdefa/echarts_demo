@@ -8,13 +8,14 @@ import Guage from '@/components/Guage'
 import Pie from '@/components/Pie'
 import Scatter from '@/components/Scatter'
 import Radar from '@/components/Radar'
+import ToDoList from '@/components/ToDoList'
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/echarts/',
+      path: '/echarts',
       component: Frame,
       children: [
         { path: 'bar', component: Bar },
@@ -24,7 +25,10 @@ export default new Router({
         { path: 'scatter', component: Scatter },
         { path: 'radar', component: Radar }
       ]
+    },
+    {
+      path: '/todo',
+      component: ToDoList,
     }
-
   ]
 })
